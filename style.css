@@ -34,20 +34,22 @@ nav#link{
 	background-color:black; 
 	margin-bottom:20px; 
 	padding:10px 10px;
-	position:relative; 
+	position:static; 
 	width:100%;
 }
 nav#link ul{
-	display:block;
 	list-style-type:none;
 	padding:0;
 	overflow: hidden;
+	position:relative;
 }
 
 nav#link ul li{
+	display:block;
 	position:relative;
 	padding:5px 5px; 
-    margin:5px 0px; 	
+    margin:5px 5px;
+    float:left;  	
 }
 
 nav#link ul li a{
@@ -62,7 +64,7 @@ nav#link ul li a{
 	border-radius:3px; 
 	color:black;
 	text-align:center;
-	float:top; 
+	float:left; 
 }
 nav#link ul li a:hover{
 	background-color:yellow;
@@ -105,21 +107,21 @@ nav#link ul li a:hover{
 	width:500px;
 	height:230px;
 	float:left;
-	margin-bottom:10px;
+	margin:10px;
 
 }
 div#section1{
 	position:relative;
 	width:40%;
 	float:left;
-	margin-right:10px;
+	margin-right:5px;
 	overflow:hidden;
 }
 div#section2{
-	float:right;
-	width:55%;
-	margin-left:1px;
-	
+	float:left;
+	width:54%;
+	margin-left:5px;
+	overflow:hidden; 
 }
 .section2_1{
 	border:2px solid black; 
@@ -163,7 +165,7 @@ clear
 	margin:2px;
 }
 div#profile{
-	width:25%;
+	width:19%;
 	float:left;
 	margin:10px;
 }
