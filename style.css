@@ -36,12 +36,14 @@ nav#link{
 	padding:10px 10px;
 	position:static; 
 	width:100%;
+	text-align:center;
 }
 nav#link ul{
 	list-style-type:none;
 	padding:0;
 	overflow: hidden;
 	position:relative;
+	margin:auto;
 }
 
 nav#link ul li{
@@ -69,6 +71,10 @@ nav#link ul li a{
 nav#link ul li a:hover{
 	background-color:yellow;
 	color:#000	
+}
+#container{
+	margin:auto;
+	width:100%;
 }
 .clear {
 	clear: both;
