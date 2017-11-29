@@ -44,14 +44,15 @@ nav#link ul{
 	overflow: hidden;
 	position:relative;
 	margin:auto;
+	text-align:center;
 }
 
 nav#link ul li{
-	display:block;
+	display:inline-block;
 	position:relative;
 	padding:5px 5px; 
-    margin:5px 5px;
-    float:left;  	
+    margin:auto;
+text-align:center;  	
 }
 
 nav#link ul li a{
@@ -72,10 +73,7 @@ nav#link ul li a:hover{
 	background-color:yellow;
 	color:#000	
 }
-#container{
-	margin:auto;
-	width:100%;
-}
+
 .clear {
 	clear: both;
 }
